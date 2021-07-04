@@ -1,0 +1,12 @@
+
+  <h4>you have selected {{departmentid}}</h4>
+
+  <button (click)="overview()">Overview </button>
+  <button (click)="contact()">Contact</button>
+  <router-outlet></router-outlet>
+
+  <a (click)='goPrevious()'>Previous</a>
+  <a (click)='goNext()'>Next</a>
+
+  <button (click)='goBack()'>Back</button>
+

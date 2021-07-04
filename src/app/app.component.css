@@ -1,0 +1,12 @@
+nav a.active
+{
+    background-color: rgb(166, 166, 240);
+}
+
+nav a
+{
+    margin-right: 15px;
+    padding: 10px;
+    text-decoration: none;
+    background-color: lightblue;
+}
